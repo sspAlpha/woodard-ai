@@ -57,12 +57,12 @@ export default function FilterBar({ onFilterChange, onSortChange, sortBy }: Filt
   }
 
   return (
-    <div className="bg-gray-200 py-3">
-      <div className="container mx-auto">
+    <div className="bg-gray-200 py-10">
+      <div className="px-8 mx-auto">
         <div className="flex flex-col md:flex-row">
           {/* Filter section */}
-          <div className="flex-1">
-            <div className="px-4 py-1 filter-label text-gray-700">FILTER BY</div>
+          <div className="flex-1 flex flex-col gap-8">
+            <div className="px-4 py-1 filter-label text-gray-700 font-serif">FILTER BY</div>
             <div className="flex flex-wrap">
               {filters.map((filter) => (
                 <div key={filter.id} className="relative px-4 py-1">

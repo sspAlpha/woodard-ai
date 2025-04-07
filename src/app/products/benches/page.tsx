@@ -79,7 +79,7 @@ export default function BenchesPage() {
             <button className="text-grey-900" aria-label="Menu">
               <Menu size={24} />
             </button>
-            <Link href="/residential" className="text-grey-900 text-lg font-serif">
+            <Link href="/products/benches" className="text-grey-900 text-lg font-serif">
               Benches
             </Link>
           </div>

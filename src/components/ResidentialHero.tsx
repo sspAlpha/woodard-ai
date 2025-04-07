@@ -35,7 +35,7 @@ export default function ResidentialHero() {
 
           {/* Center Logo */}
           <div className="absolute left-1/2 transform -translate-x-1/2">
-            <Link href="/" className="text-white text-3xl font-serif italic">
+            <Link href="/" className="text-white text-3xl font-serif">
               Woodard
             </Link>
           </div>

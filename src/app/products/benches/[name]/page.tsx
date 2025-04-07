@@ -51,7 +51,7 @@ const slug = params.name
       </header>
 
       {/* Main Content */}
-      <main className="flex-grow container mx-auto px-4 py-8">
+      <main className="min-h-[calc(100vh-347px)] flex-grow container mx-auto px-4 py-8">
         {/* Back Button */}
         <Link href="/products/benches" className="inline-flex items-center text-sm mb-8">
           <ArrowLeft className="w-4 h-4 mr-2" />
@@ -59,7 +59,7 @@ const slug = params.name
         </Link>
 
         {/* Product Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 pt-12">
           {/* Product Image */}
           <div className="flex justify-center">
             <ImageMagnifier
